@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+span, a, label {
+    display: inline-block;
+}
+@mixin myf($f, $r:center){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $r;
+    justify-content: $f;
+}
+$lime: aqua;
+$olcham: 900px;
+
+@mixin jk($l){
+    background-image: $l;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.klo {
+    @include jk(url(trees-bg.png))
+}
+.hjk {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include jk(url(story-bg.png))
+}
+@mixin fgh($g, $p){
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $g;
+    border: 1.5px solid $p;
+}
+.kloop {
+    width: 50px;   
+    margin: 70px auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.kji {
+    @include fgh(aqua, aqua )
+}
+.kjii {
+    @include fgh(transparent, silver )
+}
+.pkl {
+    color: white;
+    text-transform: uppercase;
+}
+.kp {
+    text-align: center;
+}
+.a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.katta {
+    padding: 50px;
+    @include myf(space-evenly)
+}
+.kol {
+    @include myf(space-evenly)
+}
+.po {
+    color: $lime;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.p {
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.opp {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.lop {
+    max-width: $olcham;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.klop {
+    padding: 50px 150px;
+    @include myf(space-evenly)
+}
+.lp {
+    width: 50%;
+}
+.kjio {
+    max-width: $olcham;
+    margin: auto;
+    @include myf(space-between)
+}
+.kio {
+    text-align: center;
+    max-width: $olcham;
+    margin: 30px auto;
+}
+.lpp {
+    margin: 0;
+}
+.loo {
+    font-size: 60px;
+    margin: 0;
+    color: white;
+}
+.jkio {
+    padding: 50px 150px;
+    @include jk(url(trees-bg.png))
+}
+.bhg {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.fgy {
+    padding: 0 200px;
+    @include myf(space-evenly)
+}
+.ij {
+    margin-bottom: 20px;
+}
+.jih {
+    margin-bottom: 20px;
+}
+.form {
+    width: 30%;
+}
+.jik {
+    width: 30%;
+}
+.hji {
+    @include myf(space-between)
+}
+.mk {
+    width: 45%;
+}
+.mki {
+    width: 45%;
+}
+.jih {
+    font-weight: bold;
+    font-size: 20px;
+}
+.inp {
+    width: 100%;
+    margin-bottom: 21px;
+}
+.mkh {
+    padding: 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include jk(url(footer-bg.png))
+}
+.teams {
+    width: 100%;
+    resize: none;
+}
+.fgt {
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 850px;
+    @include myf(space-between)
+}
+.sd {
+    margin-right: 10px;
+}
+.fg{
+    @include myf(space-between)
+}
+.kloh {
+    margin-top: 20px;
+}
+.jii {
+    width: 30%;
+}
+.jiop {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+.jkn {
+    background-color: rgba(255, 255, 255, 0.473);
+    padding: 7px 20px;
+    border: none;
+}
+.aj {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.ko {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+.oppp {    
+    margin: 0;
+}
+.pop {
+    color: silver;
+    font-size: 14px;
+}
+.pp {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.ppip {
+    color: silver;
+    font-size: 15px;
+}
+.oppp {
+    text-transform: uppercase;
+}
+.oppl {
+    color: white;
+    text-transform: uppercase;
+}
+.llp {
+    padding: 50px 150px;
+    @include jk(url(trees-bg.png))
+}
+.kloi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @include myf(space-between)
+}
+.imga {
+    width: 16.667%;
+}
+.jiy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.jiu {
+    width: 23%;
+    border: 2px solid white;
+}
+.koiu {
+    text-align: center;
+}
+.jio {
+    @include myf(space-evenly)
+}
+.o {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.al {
+    text-decoration: none;
+    color: silver;
+}
+.leo {
+    width: 30%;
+    text-align: center;
+}
+.oppl {
+    font-size: 20px;
+    color: rgb(225, 223, 223);
+}
+.image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.aq {
+    font-size: 30px;
+    color: aqua;
+}
+@mixin mya(){
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.llp {
+    text-align: center;
+}
+.btn {
+    margin-top: 20px;
+    @include mya()
+}
+@mixin my($x){
+    max-width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: $x;
+}
+.imj {
+    margin-top: 20px;
+    @include myf(space-between)
+}
+.jiu {
+    text-align: center;
+}
+.jkji {
+    border-radius: 50%;
+}
+.din {
+    @include my(purple)
+}
+.jkj {
+    @include my(aqua)
+}
+.bn {
+    @include my(silver)
+}
+.center {
+    text-align: center;
+}
+@media(max-width:900px) {
+    .oppl {
+        font-size: 17px;
+    }
+    .fgy {
+        padding: 0;
+    }
+}
+@media(max-width:778px) {
+    .oppl {
+        font-size: 17px;
+    }
+    .kol {
+        width: 100%;
+    }
+    .klop {
+        padding: 50px 0;
+    }
+    .llp {
+        padding: 50px 10px;
+    }
+    .pop {
+        font-size: 10px;
+    }
+    .mkh {
+        padding: 50px;
+    }
+}
+@media(max-width:643px) {
+    .oppl {
+        font-size: 17px;
+    }
+    .kol {
+        width: 100%;
+    }
+    .llp {
+        padding: 50px 0;
+    }
+    .pop {
+        font-size: 10px;
+    }
+    .mkh {
+        padding: 50px 0;
+    }
+    .form {
+        width: 40%;
+    }
+    .image {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media(max-width:547px) {
+    .oppl {
+        font-size: 8px;
+    }
+    .form {
+        width: 50%;
+    }
+    .jik {
+        width: 40%;
+    }
+    .image {
+        width: 50px;
+        height: 50px;
+    }
+    .jkio {
+        padding: 50px 0;
+    }
+    .kloh {
+        width: 120%;
+    }
+    .po,.p {
+        width: 20%;
+    }
+    .w2 {
+        width: 30%;
+    }
+    .lp {
+        width: 100%;
+    }
+    .jii {
+        width: 45%;
+    }
+    .mkh {
+        justify-content: center;
+        column-gap: 10%;
+        row-gap: 20px;
+    }
+}
+@media(max-width:416px) {
+    .oppl {
+        font-size: 8px;
+    }
+    .form {
+        width: 50%;
+    }
+    .jik {
+        width: 40%;
+    }
+    .image {
+        width: 50px;
+        height: 50px;
+    }
+    .jkio {
+        padding: 50px 0;
+    }
+    .kloh {
+        width: 120%;
+    }
+    .po,.p {
+        width: 20%;
+    }
+    .w2 {
+        width: 30%;
+    }
+    .lp {
+        width: 100%;
+    }
+    .jii {
+        width: 45%;
+    }
+    .mkh {
+        justify-content: center;
+        column-gap: 10%;
+        row-gap: 20px;
+    }
+    .pp {
+        font-size: 10px;
+    }
+    .opp {
+        font-size: 17px;
+    }
+    .imga {
+        width: 25%;
+    } 
+}
+@media(max-width:350px) {
+    .oppl {
+        font-size: 8px;
+    }
+    .image {
+        width: 45px;
+        height: 45px;
+    }
+    .kol {
+        text-align: center;
+    }
+    .po,.p {
+        width: 100%;
+    }
+    .oppp {
+        text-align: center;
+    }
+    .jih {
+        font-size: 15px;
+    }
+    .inp {
+        margin: 5px 0;
+    }
+    .jii {
+        width: 70%;
+        text-align: center;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .jiu {
+        width: 45%;
+    }
+    .kloi {
+        row-gap: 20px;
+    }
+    .imga {
+        width: 50%;
+    }
+    .form {
+        width: 70%;
+    }
+    .jik {
+        width: 90%;
+    }
+    .leo {
+        width: 45%;
+    }
+}
